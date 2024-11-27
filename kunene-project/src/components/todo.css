@@ -1,0 +1,36 @@
+.todo{
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todos-btn{
+    display: flex;
+    gap: 20px;
+
+}
+.edit-btn{
+    padding: 8px 15px;
+    background-color: rgb(8, 210, 8);
+    border: none;
+    border-radius: 5px;
+}
+.edit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(67, 108, 5);
+}
+
+
+.delete-btn{
+    background-color: rgb(189, 12, 12);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.delete-btn:hover{
+    cursor: pointer;
+    background-color: rgb(87, 3, 3);
+}

@@ -1,0 +1,28 @@
+.todoform{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 20px auto 200px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.todoform input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 0px 10px 10px;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: orange;
+    color: white;
+    padding: 20px 50px;
+}
+btn:hover{
+    color: black;
+    background: rgb(174, 160, 132);
+    cursor: pointer;
+}
